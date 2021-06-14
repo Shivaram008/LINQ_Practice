@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LINQ_Practice.LINQ_GroupBy</StartupObject>
+    <StartupObject>LINQ_Practice.LINQ_ElementOp</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aggregate1.cs" />
+    <Compile Include="LINQ_ElementOp.cs" />
     <Compile Include="LINQ_GroupBy.cs" />
     <Compile Include="LINQ_Concat.cs" />
     <Compile Include="LINQ_Joins.cs" />

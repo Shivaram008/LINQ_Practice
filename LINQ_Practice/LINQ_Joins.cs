@@ -51,7 +51,17 @@ namespace LINQ_Practice
                 Console.WriteLine($"{item.StudentName,-15} {item.StudentDept,-15}");
             }
 
-           
+            Console.WriteLine("Group join :");
+            var result2 = from d in d1 join s in l1 on d.DeptId equals s.DeptId into stud select new { Students = stud, DeptName = d.DeptName  };
+
+            foreach (var item in result2)
+            {
+                Console.WriteLine("Department Name :"+item.DeptName);
+                foreach (var i in item.Students)
+                {
+                    Console.WriteLine(i.Name);
+                }
+            }
         }
     }
 }

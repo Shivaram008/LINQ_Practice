@@ -41,6 +41,17 @@ namespace LINQ_Practice
                     Console.WriteLine(j.Name);
                 }
             }
+
+            Console.WriteLine();
+            var ToLookUp = l1.ToLookup(s => s.Age);
+            foreach (var i in ToLookUp)
+            {
+                Console.WriteLine("AgeGroup :" + i.Key);
+                foreach (var j in i)
+                {
+                    Console.WriteLine(j.Name);
+                }
+            }
         }
     }
 }
