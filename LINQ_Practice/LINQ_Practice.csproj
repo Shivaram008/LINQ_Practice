@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LINQ_Practice.LINQ_ElementOp</StartupObject>
+    <StartupObject>LINQ_Practice.LINQ_LetAndInto</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="LINQ_GroupBy.cs" />
     <Compile Include="LINQ_Concat.cs" />
     <Compile Include="LINQ_Joins.cs" />
+    <Compile Include="LINQ_LetAndInto.cs" />
     <Compile Include="LINQ_Ordering.cs" />
     <Compile Include="LINQ_Quantifiers.cs" />
     <Compile Include="Program.cs" />
